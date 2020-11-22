@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html">Klienci</a></li>
+                    <li><a href="car-list.html" class="active">Samochody</a></li>
+                    <li><a href="rent-list.html">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Szczegóły Wypożyczenia</h2>
+            <form class="form">
+
+                    <label for="employee">Marka:<sup>*</sup></label>
+                    <select name="employee" disabled>
+                        <option>AUDI</option>
+                        <option>BMW</option>
+                        <option>NISSAN</option>
+                    </select>
+
+                    <label for="department">Model:<sup>*</sup></label>
+                    <select name="department" disabled>
+                        <option>RS6 C6</option>
+                        <option>M3</option>
+                        <option>GTR</option>
+                    </select>
+
+                    <label for="department">Silnik:<sup>*</sup></label>
+                    <select name="department" disabled>
+                        <option>5000 cm3</option>
+                        <option>4000 cm3</option>
+                        <option>3600 cm3</option>
+                    </select>
+                    
+                    <label for="department">Moc:<sup>*</sup></label>
+                    <select name="department" disabled>
+                        <option>400</option>
+                        <option>420</option>
+                        <option>600</option>
+                    </select>
+
+                    <label for="department">Typ:<sup>*</sup></label>
+                    <select name="department" disabled>
+                        <option>Kombi</option>
+                        <option>Coupe</option>
+                        <option>Coupe</option>
+                    </select>
+                    <label for="salary">Cena:</label>
+                    <input type="number" name="salary" id="salary" disabled/>
+
+                <div class="form-buttons">
+                    <a href="car-form.html" class="list-actions-button-edit">Edytuj</a>
+                    <a href="car-list.html" class="list-actions-button-details">Powrót</a>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>

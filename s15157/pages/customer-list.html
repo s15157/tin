@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html" class="active">Klienci</a></li>
+                    <li><a href="car-list.html">Samochody</a></li>
+                    <li><a href="rent-list.html">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Lista klientów</h2>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th>Imię</th>
+                        <th>Nazwisko</th>
+                        <th>E-mail</th>
+                        <th>PESEL</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jan</td>
+                        <td>Kowalski</td>
+                        <td>jan.kowalski@carent.com</td>
+                        <td>85042304214</td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="customer-details.html" class="list-actions-button-details">Szczegóły</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-delete">Usuń</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Adam</td>
+                        <td>Nowak</td>
+                        <td>adam.nowak@carent.com</td>
+                        <td>93022712374</td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="customer-details.html" class="list-actions-button-details">Szczegóły</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-delete">Usuń</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Karolina</td>
+                        <td>Sowa</td>
+                        <td>karolina.sowa@carent.com</td>
+                        <td>75061209876</td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="customer-details.html" class="list-actions-button-details">Szczegóły</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="" class="list-actions-button-delete">Usuń</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><a href="customer-form.html" class="button-add">Dodaj nowego klienta</a></p>
+            
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>

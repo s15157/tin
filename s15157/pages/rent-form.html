@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html">Klienci</a></li>
+                    <li><a href="car-list.html">Samochody</a></li>
+                    <li><a href="rent-list.html" class="active">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Nowe wypożyczenie</h2>
+            <form class="form">
+
+                    <label for="employee">Klient:<sup>*</sup></label>
+                    <select name="employee">
+                        <option>Jan Kowalski</option>
+                        <option>Adam Nowak</option>
+                        <option>Karolina Sowa</option>
+                    </select>
+
+                    <label for="department">Samochód:<sup>*</sup></label>
+                    <select name="department">
+                        <option>AUDI RS6 C6</option>
+                        <option>BMW M3</option>
+                        <option>NISSAN GTR</option>
+                    </select>
+
+                    <label for="salary">Cena:</label>
+                    <input type="number" name="salary" id="salary" />
+
+                    <label for="dateFrom">Data od:</label>
+                    <input type="date" name="dateFrom" id="dateFrom" />
+
+                    <label for="dateTo">Data do:</label>
+                    <input type="date" name="dateTo" id="dateTo" />
+
+                <div class="form-buttons">
+                    <input type="submit" value="Dodaj" class="form-button-submit" />
+                    <a href="rent-list.html" class="form-button-cancel">Anuluj</a>    
+                </div> 
+            </form>
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html" class="active">Klienci</a></li>
+                    <li><a href="car-list.html">Samochody</a></li>
+                    <li><a href="rent-list.html">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Dodawanie klienta</h2>
+            <form class="form">
+
+                    <label for="firstName">Imię:<sup>*</sup></label>
+                    <input type="text" name="firstName" id="firstName" />
+
+                    <label for="lastName">Nazwisko:<sup>*</sup></label>
+                    <input type="text" name="lastName" id="lastName" />
+
+                    <label for="email">Email:<sup>*</sup></label>
+                    <input type="text" name="email" id="email" />
+
+                <div class="form-buttons">
+                    <input type="submit" value="Dodaj" class="form-button-submit" />
+                    <a href="customer-list.html" class="form-button-cancel">Anuluj</a>    
+                </div> 
+            </form>
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>

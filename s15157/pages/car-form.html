@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html">Klienci</a></li>
+                    <li><a href="car-list.html" class="active">Samochody</a></li>
+                    <li><a href="rent-list.html">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Nowy samochód</h2>
+            <form class="form">
+
+                    <label for="employee">Marka:<sup>*</sup></label>
+                    <select name="employee">
+                        <option>AUDI</option>
+                        <option>BMW</option>
+                        <option>NISSAN</option>
+                        <option>PORSCHE</option>
+                    </select>
+
+                    <label for="department">Model:<sup>*</sup></label>
+                    <select name="department">
+                        <option>RS6 C7</option>
+                        <option>M3 e92</option>
+                        <option>GTR Nismo</option>
+                        <option>911 4s</option>
+                    </select>
+                    
+                    <label for="salary">Silnik:</label>
+                    <input type="number" name="salary" id="salary" />
+
+                    <label for="salary">Moc:</label>
+                    <input type="number" name="salary" id="salary" />
+
+                    <label for="salary">Typ:</label>
+                    <input type="text" name="salary" id="salary" />
+
+                    <label for="salary">Cena:</label>
+                    <input type="number" name="salary" id="salary" />
+
+                <div class="form-buttons">
+                    <input type="submit" value="Dodaj" class="form-button-submit" />
+                    <a href="car-list.html" class="form-button-cancel">Anuluj</a>    
+                </div> 
+            </form>
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>

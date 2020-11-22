@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARent</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><img src="../images/logo.png" alt="CARent logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="customer-list.html" class="active">Klienci</a></li>
+                    <li><a href="car-list.html">Samochody</a></li>
+                    <li><a href="rent-list.html">Wypożyczenia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Szczegóły klienta</h2>
+            <form class="form">
+                    <label for="firstName">Imię:<sup>*</sup></label>
+                    <input type="text" name="firstName" value="Jan" id="firstName" disabled/>
+
+                    <label for="lastName">Nazwisko:<sup>*</sup></label>
+                    <input type="text" name="lastName" value="Kowalski" id="lastName" disabled/>
+
+                    <label for="email">Email:<sup>*</sup></label>
+                    <input type="text" name="email" value="jan.kowalski@acme.com" id="email" disabled/>
+            </form>
+            <div class="form-buttons">
+                <a href="customer-form.html" class="list-actions-button-edit">Edytuj</a>
+            </div>
+            
+            <h2>Szczegóły Wypożyczenia</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Marka</th>
+                        <th>Model</th>
+                        <th>DataOd</th>
+                        <th>DataDo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AUDI</td>
+                        <td>RS6 C6</td>
+                        <td>2020-01-01</td>
+                        <td>2020-02-12</td>
+                    </tr>
+                    <tr>
+                        <td>BMW</td>
+                        <td>M3</td>
+                        <td>2020-10-26</td>
+                        <td>    -</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="customer-list.html" class="list-actions-button-details">Powrót</a>
+        </main>
+
+        <footer>
+            Adrian Łada s15157
+        </footer>
+    </body>
+</html>
